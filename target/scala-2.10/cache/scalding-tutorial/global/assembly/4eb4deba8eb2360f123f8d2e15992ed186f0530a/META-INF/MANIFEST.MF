@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Vendor: com.twitter
+Implementation-Title: bijection-core
+Implementation-Version: 0.4.0
+Implementation-Vendor-Id: com.twitter
+Specification-Vendor: com.twitter
+Specification-Title: bijection-core
+Specification-Version: 0.4.0
+

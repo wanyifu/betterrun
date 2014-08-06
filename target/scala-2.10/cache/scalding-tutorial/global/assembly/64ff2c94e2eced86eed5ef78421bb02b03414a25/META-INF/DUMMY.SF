@@ -1,0 +1,70 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: t+7O7Z0Qw3mWNg+FWMghyGq7C/0=
+Created-By: 1.6.0_17 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: WVJJKkiqSwqGSDQJFhjAFYW8ZKQ=
+
+Name: org/codehaus/commons/compiler/ICompilerFactory.class
+SHA1-Digest: IFN24OWrA+vAl/VrBEZlEJx85lM=
+
+Name: org/codehaus/commons/compiler/IExpressionEvaluator.class
+SHA1-Digest: +M2X1RSbrNhqyxJPZr2eAnHV+pE=
+
+Name: org/codehaus/commons/compiler/IClassBodyEvaluator.class
+SHA1-Digest: taIMXXkeBt2FnCgWg7kHv7gSg88=
+
+Name: org/codehaus/commons/compiler/samples/DemoBase.class
+SHA1-Digest: QmnqycT+6iaKruXW1HwEAda6Trs=
+
+Name: org/codehaus/commons/compiler/AbstractJavaSourceClassLoader.clas
+ s
+SHA1-Digest: AWc6s/6JAcMPKP3bWlgbN9x0j+w=
+
+Name: org/codehaus/commons/compiler/CompileException.class
+SHA1-Digest: OjF0LDsicBfibTXaES9ms+7B7OM=
+
+Name: org/codehaus/commons/compiler/ICookable.class
+SHA1-Digest: aXX/kBZjKuloMqTixjaJDlbrsc0=
+
+Name: org/codehaus/commons/compiler/LocatedException.class
+SHA1-Digest: GJgH8cdvbLr+j4pxMEBxXzBCO1A=
+
+Name: org/codehaus/commons/compiler/samples/ShippingCost.class
+SHA1-Digest: ZOlEja9UNMd3W0lU+rs8djnEDIA=
+
+Name: org/codehaus/commons/compiler/AbstractCompilerFactory.class
+SHA1-Digest: PkjgA+12Jp73zdxxhiC4ONoNPTU=
+
+Name: org/codehaus/commons/compiler/CausedException.class
+SHA1-Digest: 6N6yMd53qDInA1rOy7FJ3UFl2Wo=
+
+Name: org/codehaus/commons/compiler/PrimitiveWrapper.class
+SHA1-Digest: GDd+KOAPkEMaVS4a2aNtH+MbzXU=
+
+Name: org/codehaus/commons/compiler/CompilerFactoryFactory.class
+SHA1-Digest: mG2BaIBekb8Uyq9QY58uP53FpDQ=
+
+Name: org/codehaus/commons/compiler/AbstractJavaSourceClassLoader$Prot
+ ectionDomainFactory.class
+SHA1-Digest: L4rxoE+4LBQQ+QwFWf2ft2AQL1k=
+
+Name: org/codehaus/commons/compiler/ISimpleCompiler.class
+SHA1-Digest: 6pY/l7RnaRqYO2yrLdjbAh/od6E=
+
+Name: org/codehaus/commons/compiler/Cookable.class
+SHA1-Digest: ODQrSkQWyEFWLRtYqce0Al/csII=
+
+Name: org/codehaus/commons/compiler/Location.class
+SHA1-Digest: eGNvaz+HDoYlqZBQF+iuZmoUvvU=
+
+Name: org/codehaus/commons/compiler/samples/ScriptDemo.class
+SHA1-Digest: 6DkSbyIA5271b5ErvRxnJ095nso=
+
+Name: org/codehaus/commons/compiler/samples/ClassBodyDemo.class
+SHA1-Digest: d9A/90Mh7Xf0EJxnksqFHt2DHFM=
+
+Name: org/codehaus/commons/compiler/IScriptEvaluator.class
+SHA1-Digest: 9WR67htnpvLfU/uL8aoWCn0VTg0=
+
+Name: org/codehaus/commons/compiler/samples/ExpressionDemo.class
+SHA1-Digest: nQ854fRGVEw7sqjuUpuTfI/PAI4=
+

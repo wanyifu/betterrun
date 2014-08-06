@@ -1,0 +1,70 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.7.1
+Created-By: 14.3-b01 (Sun Microsystems Inc.)
+Specification-Version: 2.6.1
+
+Name: org/codehaus/commons/compiler/ICompilerFactory.class
+SHA1-Digest: 4fWkiCQ1iGICUwy1pJcCNZ0feTU=
+
+Name: org/codehaus/commons/compiler/IExpressionEvaluator.class
+SHA1-Digest: QhST9HpFp2UgRks05EzAjzuajwY=
+
+Name: org/codehaus/commons/compiler/IClassBodyEvaluator.class
+SHA1-Digest: mOwADXY6OhPr5+ixZQNI7SKmPdc=
+
+Name: org/codehaus/commons/compiler/samples/DemoBase.class
+SHA1-Digest: g8mscoe5sz4i+piYGEApmmVYE+I=
+
+Name: org/codehaus/commons/compiler/AbstractJavaSourceClassLoader.clas
+ s
+SHA1-Digest: +Foe0tRLP3Ptmr3cgyVjdQTVsis=
+
+Name: org/codehaus/commons/compiler/CompileException.class
+SHA1-Digest: SlfaTwsyy3VBlg/PIKr3nV13Q3I=
+
+Name: org/codehaus/commons/compiler/ICookable.class
+SHA1-Digest: X/OLuSFGZR+htswvKwYekgWJYy0=
+
+Name: org/codehaus/commons/compiler/LocatedException.class
+SHA1-Digest: oJedmYX6omSPZEq8xquzs4vzLDs=
+
+Name: org/codehaus/commons/compiler/samples/ShippingCost.class
+SHA1-Digest: 5s8WfDbiYOfANsKrNHS+BIVdzWs=
+
+Name: org/codehaus/commons/compiler/AbstractCompilerFactory.class
+SHA1-Digest: vc4RaAqN9DqIwzpbAYI7qllYTnc=
+
+Name: org/codehaus/commons/compiler/CausedException.class
+SHA1-Digest: gSgXsQRHQR5fVtCt+H6NLSGt+WQ=
+
+Name: org/codehaus/commons/compiler/PrimitiveWrapper.class
+SHA1-Digest: chdFdIgysNH5NEsyfHFTOkpsPJQ=
+
+Name: org/codehaus/commons/compiler/CompilerFactoryFactory.class
+SHA1-Digest: FxztU/Ra8k2cfjDcpEwHxult7nk=
+
+Name: org/codehaus/commons/compiler/AbstractJavaSourceClassLoader$Prot
+ ectionDomainFactory.class
+SHA1-Digest: LZ8TMIxrhcRxsjMWm90h2fEzAgs=
+
+Name: org/codehaus/commons/compiler/ISimpleCompiler.class
+SHA1-Digest: 4nPeynaCXUTy6CwDNDweivf1Vfs=
+
+Name: org/codehaus/commons/compiler/Cookable.class
+SHA1-Digest: QJTt/6ayeWayYfIUPsnk1MYE6nQ=
+
+Name: org/codehaus/commons/compiler/samples/ScriptDemo.class
+SHA1-Digest: kGH0OQ3UawTxl2FrfKhpsxDsBpY=
+
+Name: org/codehaus/commons/compiler/Location.class
+SHA1-Digest: 1scS6FAz+drYEb36wYvWtXYUF0U=
+
+Name: org/codehaus/commons/compiler/samples/ClassBodyDemo.class
+SHA1-Digest: uGgNywRI/aNaYiD3gFpzO5qm8Z8=
+
+Name: org/codehaus/commons/compiler/samples/ExpressionDemo.class
+SHA1-Digest: GtYfoo6/YGMEfxj1I/TB7K+7x28=
+
+Name: org/codehaus/commons/compiler/IScriptEvaluator.class
+SHA1-Digest: ZuA2QrSh4F2SMHCP+4pRPgpMXlA=
+
