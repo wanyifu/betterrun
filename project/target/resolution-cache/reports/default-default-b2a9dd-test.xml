@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="default-b2a9dd"
+		revision="0.1-SNAPSHOT"
+		extra-sbtVersion="0.12"
+		extra-scalaVersion="2.9.2"
+		conf="test"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom"
+		date="20140814004934"/>
+	<dependencies>
+		<module organisation="net.virtual-void" name="sbt-dependency-graph">
+			<revision name="0.7.4" status="release" pubdate="20130625061256" resolver="public" artresolver="public" homepage="http://github.com/jrudolph/sbt-dependency-graph" extra-sbtVersion="0.12" extra-scalaVersion="2.9.2" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="1">
+				<license name="Apache License 2.0" url="https://github.com/jrudolph/sbt-dependency-graph/raw/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="3084" time="0" location="/Users/wanyifu/.ivy2/cache/scala_2.9.2/sbt_0.12/net.virtual-void/sbt-dependency-graph/ivy-0.7.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/net/virtual-void/sbt-dependency-graph_2.9.2_0.12/0.7.4/sbt-dependency-graph-0.7.4.pom"/>
+				<caller organisation="default" name="default-b2a9dd" conf="test, compile, runtime" rev="0.7.4" rev-constraint-default="0.7.4" rev-constraint-dynamic="0.7.4" callerrev="0.1-SNAPSHOT" extra-sbtVersion="0.12" extra-scalaVersion="2.9.2"/>
+				<artifacts>
+					<artifact name="sbt-dependency-graph" type="jar" ext="jar" status="no" details="" size="177982" time="0" location="/Users/wanyifu/.ivy2/cache/scala_2.9.2/sbt_0.12/net.virtual-void/sbt-dependency-graph/jars/sbt-dependency-graph-0.7.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/net/virtual-void/sbt-dependency-graph_2.9.2_0.12/0.7.4/sbt-dependency-graph-0.7.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.mdr" name="ascii-graphs_2.9.2">
+			<revision name="0.0.2" status="release" pubdate="20120701100923" resolver="public" artresolver="public" homepage="http://github.com/mdr/ascii-graphs" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="2">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="2654" time="0" location="/Users/wanyifu/.ivy2/cache/com.github.mdr/ascii-graphs_2.9.2/ivy-0.0.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/github/mdr/ascii-graphs_2.9.2/0.0.2/ascii-graphs_2.9.2-0.0.2.pom"/>
+				<caller organisation="net.virtual-void" name="sbt-dependency-graph" conf="default, compile, runtime, master" rev="0.0.2" rev-constraint-default="0.0.2" rev-constraint-dynamic="0.0.2" callerrev="0.7.4"/>
+				<artifacts>
+					<artifact name="ascii-graphs_2.9.2" type="jar" ext="jar" status="no" details="" size="458306" time="0" location="/Users/wanyifu/.ivy2/cache/com.github.mdr/ascii-graphs_2.9.2/jars/ascii-graphs_2.9.2-0.0.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/github/mdr/ascii-graphs_2.9.2/0.0.2/ascii-graphs_2.9.2-0.0.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.eed3si9n" name="sbt-assembly">
+			<revision name="0.8.5" status="release" pubdate="20121102080814" resolver="sbt-plugin-releases" artresolver="sbt-plugin-releases" extra-sbtVersion="0.12" extra-scalaVersion="2.9.2" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="0">
+				<license name="MIT License" url="https://github.com/sbt/sbt-assembly/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="1746" time="0" location="/Users/wanyifu/.ivy2/cache/scala_2.9.2/sbt_0.12/com.eed3si9n/sbt-assembly/ivy-0.8.5.xml" searched="false" origin-is-local="false" origin-location="http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.9.2/sbt_0.12/0.8.5/ivys/ivy.xml"/>
+				<caller organisation="default" name="default-b2a9dd" conf="test, compile, runtime" rev="0.8.5" rev-constraint-default="0.8.5" rev-constraint-dynamic="0.8.5" callerrev="0.1-SNAPSHOT" extra-sbtVersion="0.12" extra-scalaVersion="2.9.2"/>
+				<artifacts>
+					<artifact name="sbt-assembly" type="jar" ext="jar" status="no" details="" size="108826" time="0" location="/Users/wanyifu/.ivy2/cache/scala_2.9.2/sbt_0.12/com.eed3si9n/sbt-assembly/jars/sbt-assembly-0.8.5.jar">
+						<origin-location is-local="false" location="http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.9.2/sbt_0.12/0.8.5/jars/sbt-assembly.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.9.2" status="release" pubdate="20120413052921" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="3">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2391" time="0" location="/Users/wanyifu/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.9.2/scala-library-2.9.2.pom"/>
+				<caller organisation="com.github.mdr" name="ascii-graphs_2.9.2" conf="compile, runtime" rev="2.9.2" rev-constraint-default="2.9.2" rev-constraint-dynamic="2.9.2" callerrev="0.0.2"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

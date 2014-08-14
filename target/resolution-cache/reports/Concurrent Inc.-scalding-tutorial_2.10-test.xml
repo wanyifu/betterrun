@@ -7,77 +7,77 @@
 		revision="0.8.11"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom"
-		date="20140806004906"/>
+		date="20140814004943"/>
 	<dependencies>
 		<module organisation="org.specs2" name="specs2_2.10">
-			<revision name="1.13" status="release" pubdate="20121220044856" resolver="public" artresolver="public" homepage="http://specs2.org/" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="41">
+			<revision name="1.13" status="release" pubdate="20121220044856" resolver="public" artresolver="public" homepage="http://specs2.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="41">
 				<license name="MIT-style" url="http://www.opensource.org/licenses/mit-license.php"/>
-				<metadata-artifact status="successful" details="" size="3281" time="308" location="/Users/wanyifu/.ivy2/cache/org.specs2/specs2_2.10/ivy-1.13.xml" searched="true" original-local-location="/Users/wanyifu/.ivy2/cache/org.specs2/specs2_2.10/ivy-1.13.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/specs2/specs2_2.10/1.13/specs2_2.10-1.13.pom"/>
+				<metadata-artifact status="no" details="" size="3576" time="0" location="/Users/wanyifu/.ivy2/cache/org.specs2/specs2_2.10/ivy-1.13.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/specs2/specs2_2.10/1.13/specs2_2.10-1.13.pom"/>
 				<caller organisation="Concurrent Inc." name="scalding-tutorial_2.10" conf="test, compile, runtime" rev="1.13" rev-constraint-default="1.13" rev-constraint-dynamic="1.13" callerrev="0.8.11"/>
 				<artifacts>
-					<artifact name="specs2_2.10" type="jar" ext="jar" status="successful" details="" size="6656378" time="2013" location="/Users/wanyifu/.ivy2/cache/org.specs2/specs2_2.10/jars/specs2_2.10-1.13.jar">
+					<artifact name="specs2_2.10" type="jar" ext="jar" status="no" details="" size="6656378" time="0" location="/Users/wanyifu/.ivy2/cache/org.specs2/specs2_2.10/jars/specs2_2.10-1.13.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/specs2/specs2_2.10/1.13/specs2_2.10-1.13.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.specs2" name="scalaz-concurrent_2.10">
-			<revision name="7.0.0" status="release" pubdate="20121220030510" resolver="public" artresolver="public" homepage="http://specs2.org/" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="43">
+			<revision name="7.0.0" status="release" pubdate="20121220030510" resolver="public" artresolver="public" homepage="http://specs2.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="43">
 				<license name="MIT-style" url="http://www.opensource.org/licenses/mit-license.php"/>
-				<metadata-artifact status="successful" details="" size="1800" time="290" location="/Users/wanyifu/.ivy2/cache/org.specs2/scalaz-concurrent_2.10/ivy-7.0.0.xml" searched="true" original-local-location="/Users/wanyifu/.ivy2/cache/org.specs2/scalaz-concurrent_2.10/ivy-7.0.0.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/specs2/scalaz-concurrent_2.10/7.0.0/scalaz-concurrent_2.10-7.0.0.pom"/>
+				<metadata-artifact status="no" details="" size="2810" time="0" location="/Users/wanyifu/.ivy2/cache/org.specs2/scalaz-concurrent_2.10/ivy-7.0.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/specs2/scalaz-concurrent_2.10/7.0.0/scalaz-concurrent_2.10-7.0.0.pom"/>
 				<caller organisation="org.specs2" name="specs2_2.10" conf="default, compile, runtime, master" rev="7.0.0" rev-constraint-default="7.0.0" rev-constraint-dynamic="7.0.0" callerrev="1.13"/>
 				<artifacts>
-					<artifact name="scalaz-concurrent_2.10" type="jar" ext="jar" status="successful" details="" size="189253" time="421" location="/Users/wanyifu/.ivy2/cache/org.specs2/scalaz-concurrent_2.10/jars/scalaz-concurrent_2.10-7.0.0.jar">
+					<artifact name="scalaz-concurrent_2.10" type="jar" ext="jar" status="no" details="" size="189253" time="0" location="/Users/wanyifu/.ivy2/cache/org.specs2/scalaz-concurrent_2.10/jars/scalaz-concurrent_2.10-7.0.0.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/specs2/scalaz-concurrent_2.10/7.0.0/scalaz-concurrent_2.10-7.0.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.specs2" name="scalaz-effect_2.10">
-			<revision name="7.0.0" status="release" pubdate="20121220030525" resolver="public" artresolver="public" homepage="http://specs2.org/" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="44">
+			<revision name="7.0.0" status="release" pubdate="20121220030525" resolver="public" artresolver="public" homepage="http://specs2.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="44">
 				<license name="MIT-style" url="http://www.opensource.org/licenses/mit-license.php"/>
-				<metadata-artifact status="successful" details="" size="1610" time="332" location="/Users/wanyifu/.ivy2/cache/org.specs2/scalaz-effect_2.10/ivy-7.0.0.xml" searched="true" original-local-location="/Users/wanyifu/.ivy2/cache/org.specs2/scalaz-effect_2.10/ivy-7.0.0.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/specs2/scalaz-effect_2.10/7.0.0/scalaz-effect_2.10-7.0.0.pom"/>
+				<metadata-artifact status="no" details="" size="2657" time="0" location="/Users/wanyifu/.ivy2/cache/org.specs2/scalaz-effect_2.10/ivy-7.0.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/specs2/scalaz-effect_2.10/7.0.0/scalaz-effect_2.10-7.0.0.pom"/>
 				<caller organisation="org.specs2" name="scalaz-concurrent_2.10" conf="compile, runtime" rev="7.0.0" rev-constraint-default="7.0.0" rev-constraint-dynamic="7.0.0" callerrev="7.0.0"/>
 				<artifacts>
-					<artifact name="scalaz-effect_2.10" type="jar" ext="jar" status="successful" details="" size="391773" time="434" location="/Users/wanyifu/.ivy2/cache/org.specs2/scalaz-effect_2.10/jars/scalaz-effect_2.10-7.0.0.jar">
+					<artifact name="scalaz-effect_2.10" type="jar" ext="jar" status="no" details="" size="391773" time="0" location="/Users/wanyifu/.ivy2/cache/org.specs2/scalaz-effect_2.10/jars/scalaz-effect_2.10-7.0.0.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/specs2/scalaz-effect_2.10/7.0.0/scalaz-effect_2.10-7.0.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.specs2" name="scalaz-core_2.10">
-			<revision name="7.0.0" status="release" pubdate="20121220030704" resolver="public" artresolver="public" homepage="http://specs2.org/" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="42">
+			<revision name="7.0.0" status="release" pubdate="20121220030704" resolver="public" artresolver="public" homepage="http://specs2.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="42">
 				<license name="MIT-style" url="http://www.opensource.org/licenses/mit-license.php"/>
-				<metadata-artifact status="successful" details="" size="1428" time="383" location="/Users/wanyifu/.ivy2/cache/org.specs2/scalaz-core_2.10/ivy-7.0.0.xml" searched="true" original-local-location="/Users/wanyifu/.ivy2/cache/org.specs2/scalaz-core_2.10/ivy-7.0.0.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/specs2/scalaz-core_2.10/7.0.0/scalaz-core_2.10-7.0.0.pom"/>
+				<metadata-artifact status="no" details="" size="2512" time="0" location="/Users/wanyifu/.ivy2/cache/org.specs2/scalaz-core_2.10/ivy-7.0.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/specs2/scalaz-core_2.10/7.0.0/scalaz-core_2.10-7.0.0.pom"/>
 				<caller organisation="org.specs2" name="scalaz-concurrent_2.10" conf="compile, runtime" rev="7.0.0" rev-constraint-default="7.0.0" rev-constraint-dynamic="7.0.0" callerrev="7.0.0"/>
 				<caller organisation="org.specs2" name="specs2_2.10" conf="default, compile, runtime, master" rev="7.0.0" rev-constraint-default="7.0.0" rev-constraint-dynamic="7.0.0" callerrev="1.13"/>
 				<caller organisation="org.specs2" name="scalaz-effect_2.10" conf="compile, runtime" rev="7.0.0" rev-constraint-default="7.0.0" rev-constraint-dynamic="7.0.0" callerrev="7.0.0"/>
 				<artifacts>
-					<artifact name="scalaz-core_2.10" type="jar" ext="jar" status="successful" details="" size="8897195" time="3832" location="/Users/wanyifu/.ivy2/cache/org.specs2/scalaz-core_2.10/jars/scalaz-core_2.10-7.0.0.jar">
+					<artifact name="scalaz-core_2.10" type="jar" ext="jar" status="no" details="" size="8897195" time="0" location="/Users/wanyifu/.ivy2/cache/org.specs2/scalaz-core_2.10/jars/scalaz-core_2.10-7.0.0.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/specs2/scalaz-core_2.10/7.0.0/scalaz-core_2.10-7.0.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.twitter" name="scalding-core_2.10">
-			<revision name="0.8.11" status="release" pubdate="20130903093811" resolver="public" artresolver="public" homepage="https://github.com/twitter/scalding" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="10">
+			<revision name="0.8.11" status="release" pubdate="20130903093811" resolver="public" artresolver="public" homepage="https://github.com/twitter/scalding" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="10">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="4768" time="309" location="/Users/wanyifu/.ivy2/cache/com.twitter/scalding-core_2.10/ivy-0.8.11.xml" searched="true" original-local-location="/Users/wanyifu/.ivy2/cache/com.twitter/scalding-core_2.10/ivy-0.8.11.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twitter/scalding-core_2.10/0.8.11/scalding-core_2.10-0.8.11.pom"/>
+				<metadata-artifact status="no" details="" size="4736" time="0" location="/Users/wanyifu/.ivy2/cache/com.twitter/scalding-core_2.10/ivy-0.8.11.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twitter/scalding-core_2.10/0.8.11/scalding-core_2.10-0.8.11.pom"/>
 				<caller organisation="Concurrent Inc." name="scalding-tutorial_2.10" conf="test, compile, runtime" rev="0.8.11" rev-constraint-default="0.8.11" rev-constraint-dynamic="0.8.11" callerrev="0.8.11"/>
 				<artifacts>
-					<artifact name="scalding-core_2.10" type="jar" ext="jar" status="successful" details="" size="1610694" time="1897" location="/Users/wanyifu/.ivy2/cache/com.twitter/scalding-core_2.10/jars/scalding-core_2.10-0.8.11.jar">
+					<artifact name="scalding-core_2.10" type="jar" ext="jar" status="no" details="" size="1610694" time="0" location="/Users/wanyifu/.ivy2/cache/com.twitter/scalding-core_2.10/jars/scalding-core_2.10-0.8.11.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/scalding-core_2.10/0.8.11/scalding-core_2.10-0.8.11.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.fasterxml.jackson.module" name="jackson-module-scala_2.10">
-			<revision name="2.1.3" status="release" pubdate="20121228155434" resolver="public" artresolver="public" homepage="http://wiki.fasterxml.com/JacksonModuleScala" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="35">
+			<revision name="2.1.3" status="release" pubdate="20121228155434" resolver="public" artresolver="public" homepage="http://wiki.fasterxml.com/JacksonModuleScala" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="35">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="3772" time="309" location="/Users/wanyifu/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-scala_2.10/ivy-2.1.3.xml" searched="true" original-local-location="/Users/wanyifu/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-scala_2.10/ivy-2.1.3.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.10/2.1.3/jackson-module-scala_2.10-2.1.3.pom"/>
+				<metadata-artifact status="no" details="" size="3856" time="0" location="/Users/wanyifu/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-scala_2.10/ivy-2.1.3.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.10/2.1.3/jackson-module-scala_2.10-2.1.3.pom"/>
 				<caller organisation="com.twitter" name="scalding-core_2.10" conf="default, compile, runtime, master" rev="2.1.3" rev-constraint-default="2.1.3" rev-constraint-dynamic="2.1.3" callerrev="0.8.11"/>
 				<artifacts>
-					<artifact name="jackson-module-scala_2.10" type="jar" ext="jar" status="successful" details="" size="1063497" time="698" location="/Users/wanyifu/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-scala_2.10/jars/jackson-module-scala_2.10-2.1.3.jar">
+					<artifact name="jackson-module-scala_2.10" type="jar" ext="jar" status="no" details="" size="1063497" time="0" location="/Users/wanyifu/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-scala_2.10/jars/jackson-module-scala_2.10-2.1.3.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.10/2.1.3/jackson-module-scala_2.10-2.1.3.jar"/>
 					</artifact>
 				</artifacts>
@@ -107,23 +107,23 @@
 			</revision>
 		</module>
 		<module organisation="com.fasterxml.jackson.core" name="jackson-databind">
-			<revision name="2.1.2" status="release" pubdate="20121203220839" resolver="public" artresolver="public" homepage="http://wiki.fasterxml.com/JacksonHome" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="38">
-				<metadata-artifact status="successful" details="" size="5598" time="356" location="/Users/wanyifu/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/ivy-2.1.2.xml" searched="true" original-local-location="/Users/wanyifu/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/ivy-2.1.2.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.1.2/jackson-databind-2.1.2.pom"/>
+			<revision name="2.1.2" status="release" pubdate="20121203220839" resolver="public" artresolver="public" homepage="http://wiki.fasterxml.com/JacksonHome" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="38">
+				<metadata-artifact status="no" details="" size="6028" time="0" location="/Users/wanyifu/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/ivy-2.1.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.1.2/jackson-databind-2.1.2.pom"/>
 				<caller organisation="com.fasterxml.jackson.module" name="jackson-module-scala_2.10" conf="compile, runtime" rev="2.1.2" rev-constraint-default="2.1.2" rev-constraint-dynamic="2.1.2" callerrev="2.1.3"/>
 				<artifacts>
-					<artifact name="jackson-databind" type="jar" ext="jar" status="successful" details="" size="924753" time="538" location="/Users/wanyifu/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/jars/jackson-databind-2.1.2.jar">
+					<artifact name="jackson-databind" type="jar" ext="jar" status="no" details="" size="924753" time="0" location="/Users/wanyifu/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/jars/jackson-databind-2.1.2.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.1.2/jackson-databind-2.1.2.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.fasterxml.jackson.core" name="jackson-annotations">
-			<revision name="2.1.2" status="release" pubdate="20121203220158" resolver="public" artresolver="public" homepage="http://wiki.fasterxml.com/JacksonHome" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="37">
-				<metadata-artifact status="successful" details="" size="1862" time="393" location="/Users/wanyifu/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/ivy-2.1.2.xml" searched="true" original-local-location="/Users/wanyifu/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/ivy-2.1.2.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.1.2/jackson-annotations-2.1.2.pom"/>
+			<revision name="2.1.2" status="release" pubdate="20121203220158" resolver="public" artresolver="public" homepage="http://wiki.fasterxml.com/JacksonHome" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="37">
+				<metadata-artifact status="no" details="" size="4023" time="0" location="/Users/wanyifu/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/ivy-2.1.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.1.2/jackson-annotations-2.1.2.pom"/>
 				<caller organisation="com.fasterxml.jackson.module" name="jackson-module-scala_2.10" conf="compile, runtime" rev="2.1.2" rev-constraint-default="2.1.2" rev-constraint-dynamic="2.1.2" callerrev="2.1.3"/>
 				<caller organisation="com.fasterxml.jackson.core" name="jackson-databind" conf="compile, runtime" rev="2.1.1" rev-constraint-default="2.1.1" rev-constraint-dynamic="2.1.1" callerrev="2.1.2"/>
 				<artifacts>
-					<artifact name="jackson-annotations" type="jar" ext="jar" status="successful" details="" size="34474" time="288" location="/Users/wanyifu/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/jars/jackson-annotations-2.1.2.jar">
+					<artifact name="jackson-annotations" type="jar" ext="jar" status="no" details="" size="34474" time="0" location="/Users/wanyifu/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/jars/jackson-annotations-2.1.2.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.1.2/jackson-annotations-2.1.2.jar"/>
 					</artifact>
 				</artifacts>
@@ -136,12 +136,12 @@
 			</revision>
 		</module>
 		<module organisation="com.fasterxml.jackson.core" name="jackson-core">
-			<revision name="2.1.2" status="release" pubdate="20121203220220" resolver="public" artresolver="public" homepage="http://wiki.fasterxml.com/JacksonHome" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="36">
-				<metadata-artifact status="successful" details="" size="5649" time="308" location="/Users/wanyifu/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/ivy-2.1.2.xml" searched="true" original-local-location="/Users/wanyifu/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/ivy-2.1.2.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.1.2/jackson-core-2.1.2.pom"/>
+			<revision name="2.1.2" status="release" pubdate="20121203220220" resolver="public" artresolver="public" homepage="http://wiki.fasterxml.com/JacksonHome" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="36">
+				<metadata-artifact status="no" details="" size="4343" time="0" location="/Users/wanyifu/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/ivy-2.1.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.1.2/jackson-core-2.1.2.pom"/>
 				<caller organisation="com.fasterxml.jackson.module" name="jackson-module-scala_2.10" conf="compile, runtime" rev="2.1.2" rev-constraint-default="2.1.2" rev-constraint-dynamic="2.1.2" callerrev="2.1.3"/>
 				<caller organisation="com.fasterxml.jackson.core" name="jackson-databind" conf="compile, runtime" rev="2.1.1" rev-constraint-default="2.1.1" rev-constraint-dynamic="2.1.1" callerrev="2.1.2"/>
 				<artifacts>
-					<artifact name="jackson-core" type="jar" ext="jar" status="successful" details="" size="206686" time="353" location="/Users/wanyifu/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/jars/jackson-core-2.1.2.jar">
+					<artifact name="jackson-core" type="jar" ext="jar" status="no" details="" size="206686" time="0" location="/Users/wanyifu/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/jars/jackson-core-2.1.2.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.1.2/jackson-core-2.1.2.jar"/>
 					</artifact>
 				</artifacts>
@@ -173,12 +173,12 @@
 			</revision>
 		</module>
 		<module organisation="com.twitter" name="algebird-core_2.10">
-			<revision name="0.1.13" status="release" pubdate="20130516135846" resolver="public" artresolver="public" homepage="https://github.com/twitter/algebird" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="33">
+			<revision name="0.1.13" status="release" pubdate="20130516135846" resolver="public" artresolver="public" homepage="https://github.com/twitter/algebird" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="33">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="1888" time="294" location="/Users/wanyifu/.ivy2/cache/com.twitter/algebird-core_2.10/ivy-0.1.13.xml" searched="true" original-local-location="/Users/wanyifu/.ivy2/cache/com.twitter/algebird-core_2.10/ivy-0.1.13.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twitter/algebird-core_2.10/0.1.13/algebird-core_2.10-0.1.13.pom"/>
+				<metadata-artifact status="no" details="" size="2676" time="0" location="/Users/wanyifu/.ivy2/cache/com.twitter/algebird-core_2.10/ivy-0.1.13.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twitter/algebird-core_2.10/0.1.13/algebird-core_2.10-0.1.13.pom"/>
 				<caller organisation="com.twitter" name="scalding-core_2.10" conf="default, compile, runtime, master" rev="0.1.13" rev-constraint-default="0.1.13" rev-constraint-dynamic="0.1.13" callerrev="0.8.11"/>
 				<artifacts>
-					<artifact name="algebird-core_2.10" type="jar" ext="jar" status="successful" details="" size="1685404" time="950" location="/Users/wanyifu/.ivy2/cache/com.twitter/algebird-core_2.10/jars/algebird-core_2.10-0.1.13.jar">
+					<artifact name="algebird-core_2.10" type="jar" ext="jar" status="no" details="" size="1685404" time="0" location="/Users/wanyifu/.ivy2/cache/com.twitter/algebird-core_2.10/jars/algebird-core_2.10-0.1.13.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/algebird-core_2.10/0.1.13/algebird-core_2.10-0.1.13.jar"/>
 					</artifact>
 				</artifacts>
@@ -197,58 +197,58 @@
 			</revision>
 		</module>
 		<module organisation="com.twitter" name="chill_2.10">
-			<revision name="0.2.3" status="release" pubdate="20130516164036" resolver="public" artresolver="public" homepage="https://github.com/twitter/chill" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="27">
+			<revision name="0.2.3" status="release" pubdate="20130516164036" resolver="public" artresolver="public" homepage="https://github.com/twitter/chill" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="27">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="2698" time="427" location="/Users/wanyifu/.ivy2/cache/com.twitter/chill_2.10/ivy-0.2.3.xml" searched="true" original-local-location="/Users/wanyifu/.ivy2/cache/com.twitter/chill_2.10/ivy-0.2.3.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twitter/chill_2.10/0.2.3/chill_2.10-0.2.3.pom"/>
+				<metadata-artifact status="no" details="" size="3164" time="0" location="/Users/wanyifu/.ivy2/cache/com.twitter/chill_2.10/ivy-0.2.3.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twitter/chill_2.10/0.2.3/chill_2.10-0.2.3.pom"/>
 				<caller organisation="com.twitter" name="scalding-core_2.10" conf="default, compile, runtime, master" rev="0.2.3" rev-constraint-default="0.2.3" rev-constraint-dynamic="0.2.3" callerrev="0.8.11"/>
 				<artifacts>
-					<artifact name="chill_2.10" type="jar" ext="jar" status="successful" details="" size="195121" time="428" location="/Users/wanyifu/.ivy2/cache/com.twitter/chill_2.10/jars/chill_2.10-0.2.3.jar">
+					<artifact name="chill_2.10" type="jar" ext="jar" status="no" details="" size="195121" time="0" location="/Users/wanyifu/.ivy2/cache/com.twitter/chill_2.10/jars/chill_2.10-0.2.3.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/chill_2.10/0.2.3/chill_2.10-0.2.3.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.ow2.asm" name="asm-commons">
-			<revision name="4.0" status="release" pubdate="20111206112248" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="31">
-				<metadata-artifact status="successful" details="" size="2092" time="291" location="/Users/wanyifu/.ivy2/cache/org.ow2.asm/asm-commons/ivy-4.0.xml" searched="true" original-local-location="/Users/wanyifu/.ivy2/cache/org.ow2.asm/asm-commons/ivy-4.0.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/ow2/asm/asm-commons/4.0/asm-commons-4.0.pom"/>
+			<revision name="4.0" status="release" pubdate="20111206112248" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="31">
+				<metadata-artifact status="no" details="" size="4380" time="0" location="/Users/wanyifu/.ivy2/cache/org.ow2.asm/asm-commons/ivy-4.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/ow2/asm/asm-commons/4.0/asm-commons-4.0.pom"/>
 				<caller organisation="com.twitter" name="chill_2.10" conf="compile, runtime" rev="4.0" rev-constraint-default="4.0" rev-constraint-dynamic="4.0" callerrev="0.2.3"/>
 				<artifacts>
-					<artifact name="asm-commons" type="jar" ext="jar" status="successful" details="" size="37776" time="318" location="/Users/wanyifu/.ivy2/cache/org.ow2.asm/asm-commons/jars/asm-commons-4.0.jar">
+					<artifact name="asm-commons" type="jar" ext="jar" status="no" details="" size="37776" time="0" location="/Users/wanyifu/.ivy2/cache/org.ow2.asm/asm-commons/jars/asm-commons-4.0.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/ow2/asm/asm-commons/4.0/asm-commons-4.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.ow2.asm" name="asm-tree">
-			<revision name="4.0" status="release" pubdate="20111206112301" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="32">
-				<metadata-artifact status="successful" details="" size="2081" time="359" location="/Users/wanyifu/.ivy2/cache/org.ow2.asm/asm-tree/ivy-4.0.xml" searched="true" original-local-location="/Users/wanyifu/.ivy2/cache/org.ow2.asm/asm-tree/ivy-4.0.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/ow2/asm/asm-tree/4.0/asm-tree-4.0.pom"/>
+			<revision name="4.0" status="release" pubdate="20111206112301" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="32">
+				<metadata-artifact status="no" details="" size="4369" time="0" location="/Users/wanyifu/.ivy2/cache/org.ow2.asm/asm-tree/ivy-4.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/ow2/asm/asm-tree/4.0/asm-tree-4.0.pom"/>
 				<caller organisation="org.ow2.asm" name="asm-commons" conf="compile, runtime" rev="4.0" rev-constraint-default="4.0" rev-constraint-dynamic="4.0" callerrev="4.0"/>
 				<artifacts>
-					<artifact name="asm-tree" type="jar" ext="jar" status="successful" details="" size="21982" time="283" location="/Users/wanyifu/.ivy2/cache/org.ow2.asm/asm-tree/jars/asm-tree-4.0.jar">
+					<artifact name="asm-tree" type="jar" ext="jar" status="no" details="" size="21982" time="0" location="/Users/wanyifu/.ivy2/cache/org.ow2.asm/asm-tree/jars/asm-tree-4.0.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/ow2/asm/asm-tree/4.0/asm-tree-4.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.twitter" name="bijection-core_2.10">
-			<revision name="0.4.0" status="release" pubdate="20130516161649" resolver="public" artresolver="public" homepage="https://github.com/twitter/bijection" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="29">
+			<revision name="0.4.0" status="release" pubdate="20130516161649" resolver="public" artresolver="public" homepage="https://github.com/twitter/bijection" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="29">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="3395" time="348" location="/Users/wanyifu/.ivy2/cache/com.twitter/bijection-core_2.10/ivy-0.4.0.xml" searched="true" original-local-location="/Users/wanyifu/.ivy2/cache/com.twitter/bijection-core_2.10/ivy-0.4.0.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twitter/bijection-core_2.10/0.4.0/bijection-core_2.10-0.4.0.pom"/>
+				<metadata-artifact status="no" details="" size="3543" time="0" location="/Users/wanyifu/.ivy2/cache/com.twitter/bijection-core_2.10/ivy-0.4.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twitter/bijection-core_2.10/0.4.0/bijection-core_2.10-0.4.0.pom"/>
 				<caller organisation="com.twitter" name="chill_2.10" conf="compile, runtime" rev="0.4.0" rev-constraint-default="0.4.0" rev-constraint-dynamic="0.4.0" callerrev="0.2.3"/>
 				<artifacts>
-					<artifact name="bijection-core_2.10" type="jar" ext="jar" status="successful" details="" size="1761285" time="851" location="/Users/wanyifu/.ivy2/cache/com.twitter/bijection-core_2.10/jars/bijection-core_2.10-0.4.0.jar">
+					<artifact name="bijection-core_2.10" type="jar" ext="jar" status="no" details="" size="1761285" time="0" location="/Users/wanyifu/.ivy2/cache/com.twitter/bijection-core_2.10/jars/bijection-core_2.10-0.4.0.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/bijection-core_2.10/0.4.0/bijection-core_2.10-0.4.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="commons-codec" name="commons-codec">
-			<revision name="1.7" status="release" pubdate="20120911051418" resolver="public" artresolver="public" homepage="http://commons.apache.org/codec/" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="30">
-				<metadata-artifact status="successful" details="" size="10328" time="289" location="/Users/wanyifu/.ivy2/cache/commons-codec/commons-codec/ivy-1.7.xml" searched="true" original-local-location="/Users/wanyifu/.ivy2/cache/commons-codec/commons-codec/ivy-1.7.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-codec/commons-codec/1.7/commons-codec-1.7.pom"/>
+			<revision name="1.7" status="release" pubdate="20120911051418" resolver="public" artresolver="public" homepage="http://commons.apache.org/codec/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="30">
+				<metadata-artifact status="no" details="" size="8018" time="0" location="/Users/wanyifu/.ivy2/cache/commons-codec/commons-codec/ivy-1.7.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-codec/commons-codec/1.7/commons-codec-1.7.pom"/>
 				<caller organisation="com.twitter" name="bijection-core_2.10" conf="compile, runtime" rev="1.7" rev-constraint-default="1.7" rev-constraint-dynamic="1.7" callerrev="0.4.0"/>
 				<caller organisation="org.mnode.ical4j" name="ical4j" conf="compile, runtime" rev="1.5" rev-constraint-default="1.5" rev-constraint-dynamic="1.5" callerrev="1.0.2"/>
 				<artifacts>
-					<artifact name="commons-codec" type="jar" ext="jar" status="successful" details="" size="259600" time="533" location="/Users/wanyifu/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.7.jar">
+					<artifact name="commons-codec" type="jar" ext="jar" status="no" details="" size="259600" time="0" location="/Users/wanyifu/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.7.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-codec/commons-codec/1.7/commons-codec-1.7.jar"/>
 					</artifact>
 				</artifacts>
@@ -273,9 +273,9 @@
 					</artifact>
 				</artifacts>
 			</revision>
-			<revision name="2.17" status="release" pubdate="20120707123720" resolver="public" artresolver="public" evicted="latest-revision" evicted-reason="" homepage="http://code.google.com/p/kryo/" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
+			<revision name="2.17" status="release" pubdate="20120707123720" resolver="public" artresolver="public" evicted="latest-revision" evicted-reason="" homepage="http://code.google.com/p/kryo/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
 				<license name="New BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
-				<metadata-artifact status="successful" details="" size="5021" time="317" location="/Users/wanyifu/.ivy2/cache/com.esotericsoftware.kryo/kryo/ivy-2.17.xml" searched="true" original-local-location="/Users/wanyifu/.ivy2/cache/com.esotericsoftware.kryo/kryo/ivy-2.17.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/esotericsoftware/kryo/kryo/2.17/kryo-2.17.pom"/>
+				<metadata-artifact status="no" details="" size="3557" time="0" location="/Users/wanyifu/.ivy2/cache/com.esotericsoftware.kryo/kryo/ivy-2.17.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/esotericsoftware/kryo/kryo/2.17/kryo-2.17.pom"/>
 				<evicted-by rev="2.21"/>
 				<caller organisation="cascading.kryo" name="cascading.kryo" conf="compile, runtime" rev="2.17" rev-constraint-default="2.17" rev-constraint-dynamic="2.17" callerrev="0.4.6"/>
 				<artifacts>
@@ -283,23 +283,23 @@
 			</revision>
 		</module>
 		<module organisation="com.twitter" name="maple">
-			<revision name="0.2.7" status="release" pubdate="20130326163453" resolver="Concurrent Maven Repo" artresolver="Concurrent Maven Repo" homepage="" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="26">
-				<metadata-artifact status="successful" details="" size="5274" time="762" location="/Users/wanyifu/.ivy2/cache/com.twitter/maple/ivy-0.2.7.xml" searched="true" original-local-location="/Users/wanyifu/.ivy2/cache/com.twitter/maple/ivy-0.2.7.xml.original" origin-is-local="false" origin-location="http://conjars.org/repo/com/twitter/maple/0.2.7/maple-0.2.7.pom"/>
+			<revision name="0.2.7" status="release" pubdate="20130326163453" resolver="Concurrent Maven Repo" artresolver="Concurrent Maven Repo" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="26">
+				<metadata-artifact status="no" details="" size="3594" time="0" location="/Users/wanyifu/.ivy2/cache/com.twitter/maple/ivy-0.2.7.xml" searched="false" origin-is-local="false" origin-location="http://conjars.org/repo/com/twitter/maple/0.2.7/maple-0.2.7.pom"/>
 				<caller organisation="com.twitter" name="scalding-core_2.10" conf="default, compile, runtime, master" rev="0.2.7" rev-constraint-default="0.2.7" rev-constraint-dynamic="0.2.7" callerrev="0.8.11"/>
 				<artifacts>
-					<artifact name="maple" type="jar" ext="jar" status="successful" details="" size="97887" time="1099" location="/Users/wanyifu/.ivy2/cache/com.twitter/maple/jars/maple-0.2.7.jar">
+					<artifact name="maple" type="jar" ext="jar" status="no" details="" size="97887" time="0" location="/Users/wanyifu/.ivy2/cache/com.twitter/maple/jars/maple-0.2.7.jar">
 						<origin-location is-local="false" location="http://conjars.org/repo/com/twitter/maple/0.2.7/maple-0.2.7.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="cascading.kryo" name="cascading.kryo">
-			<revision name="0.4.6" status="release" pubdate="20130103171920" resolver="Concurrent Maven Repo" artresolver="Concurrent Maven Repo" homepage="https://github.com/Cascading/cascading.kryo" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="21">
+			<revision name="0.4.6" status="release" pubdate="20130103171920" resolver="Concurrent Maven Repo" artresolver="Concurrent Maven Repo" homepage="https://github.com/Cascading/cascading.kryo" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="21">
 				<license name="Eclipse Public License" url="http://www.eclipse.org/legal/epl-v10.html"/>
-				<metadata-artifact status="successful" details="" size="4489" time="775" location="/Users/wanyifu/.ivy2/cache/cascading.kryo/cascading.kryo/ivy-0.4.6.xml" searched="true" original-local-location="/Users/wanyifu/.ivy2/cache/cascading.kryo/cascading.kryo/ivy-0.4.6.xml.original" origin-is-local="false" origin-location="http://conjars.org/repo/cascading/kryo/cascading.kryo/0.4.6/cascading.kryo-0.4.6.pom"/>
+				<metadata-artifact status="no" details="" size="3205" time="0" location="/Users/wanyifu/.ivy2/cache/cascading.kryo/cascading.kryo/ivy-0.4.6.xml" searched="false" origin-is-local="false" origin-location="http://conjars.org/repo/cascading/kryo/cascading.kryo/0.4.6/cascading.kryo-0.4.6.pom"/>
 				<caller organisation="com.twitter" name="scalding-core_2.10" conf="default, compile, runtime, master" rev="0.4.6" rev-constraint-default="0.4.6" rev-constraint-dynamic="0.4.6" callerrev="0.8.11"/>
 				<artifacts>
-					<artifact name="cascading.kryo" type="jar" ext="jar" status="successful" details="" size="14279" time="806" location="/Users/wanyifu/.ivy2/cache/cascading.kryo/cascading.kryo/jars/cascading.kryo-0.4.6.jar">
+					<artifact name="cascading.kryo" type="jar" ext="jar" status="no" details="" size="14279" time="0" location="/Users/wanyifu/.ivy2/cache/cascading.kryo/cascading.kryo/jars/cascading.kryo-0.4.6.jar">
 						<origin-location is-local="false" location="http://conjars.org/repo/cascading/kryo/cascading.kryo/0.4.6/cascading.kryo-0.4.6.jar"/>
 					</artifact>
 				</artifacts>
@@ -356,48 +356,48 @@
 			</revision>
 		</module>
 		<module organisation="com.twitter" name="scalding-date_2.10">
-			<revision name="0.8.11" status="release" pubdate="20130903093755" resolver="public" artresolver="public" homepage="https://github.com/twitter/scalding" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="12">
+			<revision name="0.8.11" status="release" pubdate="20130903093755" resolver="public" artresolver="public" homepage="https://github.com/twitter/scalding" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="12">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="2393" time="698" location="/Users/wanyifu/.ivy2/cache/com.twitter/scalding-date_2.10/ivy-0.8.11.xml" searched="true" original-local-location="/Users/wanyifu/.ivy2/cache/com.twitter/scalding-date_2.10/ivy-0.8.11.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twitter/scalding-date_2.10/0.8.11/scalding-date_2.10-0.8.11.pom"/>
+				<metadata-artifact status="no" details="" size="2906" time="0" location="/Users/wanyifu/.ivy2/cache/com.twitter/scalding-date_2.10/ivy-0.8.11.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twitter/scalding-date_2.10/0.8.11/scalding-date_2.10-0.8.11.pom"/>
 				<caller organisation="com.twitter" name="scalding-core_2.10" conf="default, compile, runtime, master" rev="0.8.11" rev-constraint-default="0.8.11" rev-constraint-dynamic="0.8.11" callerrev="0.8.11"/>
 				<artifacts>
-					<artifact name="scalding-date_2.10" type="jar" ext="jar" status="successful" details="" size="95400" time="438" location="/Users/wanyifu/.ivy2/cache/com.twitter/scalding-date_2.10/jars/scalding-date_2.10-0.8.11.jar">
+					<artifact name="scalding-date_2.10" type="jar" ext="jar" status="no" details="" size="95400" time="0" location="/Users/wanyifu/.ivy2/cache/com.twitter/scalding-date_2.10/jars/scalding-date_2.10-0.8.11.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/scalding-date_2.10/0.8.11/scalding-date_2.10-0.8.11.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.joestelmach" name="natty">
-			<revision name="0.7" status="release" pubdate="20121014201448" resolver="public" artresolver="public" homepage="http://natty.joestelmach.com" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="13">
+			<revision name="0.7" status="release" pubdate="20121014201448" resolver="public" artresolver="public" homepage="http://natty.joestelmach.com" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="13">
 				<license name="MIT License" url="LICENSE"/>
-				<metadata-artifact status="successful" details="" size="7909" time="371" location="/Users/wanyifu/.ivy2/cache/com.joestelmach/natty/ivy-0.7.xml" searched="true" original-local-location="/Users/wanyifu/.ivy2/cache/com.joestelmach/natty/ivy-0.7.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/joestelmach/natty/0.7/natty-0.7.pom"/>
+				<metadata-artifact status="no" details="" size="3474" time="0" location="/Users/wanyifu/.ivy2/cache/com.joestelmach/natty/ivy-0.7.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/joestelmach/natty/0.7/natty-0.7.pom"/>
 				<caller organisation="com.twitter" name="scalding-date_2.10" conf="compile, runtime" rev="0.7" rev-constraint-default="0.7" rev-constraint-dynamic="0.7" callerrev="0.8.11"/>
 				<artifacts>
-					<artifact name="natty" type="jar" ext="jar" status="successful" details="" size="540846" time="477" location="/Users/wanyifu/.ivy2/cache/com.joestelmach/natty/jars/natty-0.7.jar">
+					<artifact name="natty" type="jar" ext="jar" status="no" details="" size="540846" time="0" location="/Users/wanyifu/.ivy2/cache/com.joestelmach/natty/jars/natty-0.7.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/joestelmach/natty/0.7/natty-0.7.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.mnode.ical4j" name="ical4j">
-			<revision name="1.0.2" status="release" pubdate="20110920174644" resolver="public" artresolver="public" homepage="http://ical4j.sourceforge.net" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="17">
+			<revision name="1.0.2" status="release" pubdate="20110920174644" resolver="public" artresolver="public" homepage="http://ical4j.sourceforge.net" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="17">
 				<license name="iCal4j - License" url="LICENSE"/>
-				<metadata-artifact status="successful" details="" size="11204" time="276" location="/Users/wanyifu/.ivy2/cache/org.mnode.ical4j/ical4j/ivy-1.0.2.xml" searched="true" original-local-location="/Users/wanyifu/.ivy2/cache/org.mnode.ical4j/ical4j/ivy-1.0.2.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/mnode/ical4j/ical4j/1.0.2/ical4j-1.0.2.pom"/>
+				<metadata-artifact status="no" details="" size="5061" time="0" location="/Users/wanyifu/.ivy2/cache/org.mnode.ical4j/ical4j/ivy-1.0.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/mnode/ical4j/ical4j/1.0.2/ical4j-1.0.2.pom"/>
 				<caller organisation="com.joestelmach" name="natty" conf="compile, runtime" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="0.7"/>
 				<artifacts>
-					<artifact name="ical4j" type="bundle" ext="jar" status="successful" details="" size="972404" time="557" location="/Users/wanyifu/.ivy2/cache/org.mnode.ical4j/ical4j/bundles/ical4j-1.0.2.jar">
+					<artifact name="ical4j" type="bundle" ext="jar" status="no" details="" size="972404" time="0" location="/Users/wanyifu/.ivy2/cache/org.mnode.ical4j/ical4j/bundles/ical4j-1.0.2.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/mnode/ical4j/ical4j/1.0.2/ical4j-1.0.2.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="backport-util-concurrent" name="backport-util-concurrent">
-			<revision name="3.1" status="release" pubdate="20071111142848" resolver="public" artresolver="public" homepage="http://backport-jsr166.sourceforge.net/" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="20">
+			<revision name="3.1" status="release" pubdate="20071111142848" resolver="public" artresolver="public" homepage="http://backport-jsr166.sourceforge.net/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="20">
 				<license name="Public Domain" url="http://creativecommons.org/licenses/publicdomain"/>
-				<metadata-artifact status="successful" details="" size="880" time="305" location="/Users/wanyifu/.ivy2/cache/backport-util-concurrent/backport-util-concurrent/ivy-3.1.xml" searched="true" original-local-location="/Users/wanyifu/.ivy2/cache/backport-util-concurrent/backport-util-concurrent/ivy-3.1.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.pom"/>
+				<metadata-artifact status="no" details="" size="2420" time="0" location="/Users/wanyifu/.ivy2/cache/backport-util-concurrent/backport-util-concurrent/ivy-3.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.pom"/>
 				<caller organisation="org.mnode.ical4j" name="ical4j" conf="compile, runtime" rev="3.1" rev-constraint-default="3.1" rev-constraint-dynamic="3.1" callerrev="1.0.2"/>
 				<artifacts>
-					<artifact name="backport-util-concurrent" type="jar" ext="jar" status="successful" details="" size="331716" time="378" location="/Users/wanyifu/.ivy2/cache/backport-util-concurrent/backport-util-concurrent/jars/backport-util-concurrent-3.1.jar">
+					<artifact name="backport-util-concurrent" type="jar" ext="jar" status="no" details="" size="331716" time="0" location="/Users/wanyifu/.ivy2/cache/backport-util-concurrent/backport-util-concurrent/jars/backport-util-concurrent-3.1.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.jar"/>
 					</artifact>
 				</artifacts>
@@ -415,23 +415,23 @@
 			</revision>
 		</module>
 		<module organisation="org.antlr" name="antlr-runtime">
-			<revision name="3.2" status="release" pubdate="20090923150455" resolver="public" artresolver="public" homepage="http://www.antlr.org" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="14">
-				<metadata-artifact status="successful" details="" size="4049" time="308" location="/Users/wanyifu/.ivy2/cache/org.antlr/antlr-runtime/ivy-3.2.xml" searched="true" original-local-location="/Users/wanyifu/.ivy2/cache/org.antlr/antlr-runtime/ivy-3.2.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/antlr/antlr-runtime/3.2/antlr-runtime-3.2.pom"/>
+			<revision name="3.2" status="release" pubdate="20090923150455" resolver="public" artresolver="public" homepage="http://www.antlr.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="14">
+				<metadata-artifact status="no" details="" size="3948" time="0" location="/Users/wanyifu/.ivy2/cache/org.antlr/antlr-runtime/ivy-3.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/antlr/antlr-runtime/3.2/antlr-runtime-3.2.pom"/>
 				<caller organisation="com.joestelmach" name="natty" conf="compile, runtime" rev="3.2" rev-constraint-default="3.2" rev-constraint-dynamic="3.2" callerrev="0.7"/>
 				<artifacts>
-					<artifact name="antlr-runtime" type="jar" ext="jar" status="successful" details="" size="151989" time="323" location="/Users/wanyifu/.ivy2/cache/org.antlr/antlr-runtime/jars/antlr-runtime-3.2.jar">
+					<artifact name="antlr-runtime" type="jar" ext="jar" status="no" details="" size="151989" time="0" location="/Users/wanyifu/.ivy2/cache/org.antlr/antlr-runtime/jars/antlr-runtime-3.2.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/antlr/antlr-runtime/3.2/antlr-runtime-3.2.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.antlr" name="stringtemplate">
-			<revision name="3.2" status="release" pubdate="20081027181728" resolver="public" artresolver="public" homepage="http://www.stringtemplate.org" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="15">
+			<revision name="3.2" status="release" pubdate="20081027181728" resolver="public" artresolver="public" homepage="http://www.stringtemplate.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="15">
 				<license name="BSD licence" url="http://antlr.org/license.html"/>
-				<metadata-artifact status="successful" details="" size="2025" time="289" location="/Users/wanyifu/.ivy2/cache/org.antlr/stringtemplate/ivy-3.2.xml" searched="true" original-local-location="/Users/wanyifu/.ivy2/cache/org.antlr/stringtemplate/ivy-3.2.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/antlr/stringtemplate/3.2/stringtemplate-3.2.pom"/>
+				<metadata-artifact status="no" details="" size="3350" time="0" location="/Users/wanyifu/.ivy2/cache/org.antlr/stringtemplate/ivy-3.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/antlr/stringtemplate/3.2/stringtemplate-3.2.pom"/>
 				<caller organisation="org.antlr" name="antlr-runtime" conf="compile, runtime" rev="3.2" rev-constraint-default="3.2" rev-constraint-dynamic="3.2" callerrev="3.2"/>
 				<artifacts>
-					<artifact name="stringtemplate" type="jar" ext="jar" status="successful" details="" size="172023" time="340" location="/Users/wanyifu/.ivy2/cache/org.antlr/stringtemplate/jars/stringtemplate-3.2.jar">
+					<artifact name="stringtemplate" type="jar" ext="jar" status="no" details="" size="172023" time="0" location="/Users/wanyifu/.ivy2/cache/org.antlr/stringtemplate/jars/stringtemplate-3.2.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/antlr/stringtemplate/3.2/stringtemplate-3.2.jar"/>
 					</artifact>
 				</artifacts>
@@ -451,36 +451,36 @@
 			</revision>
 		</module>
 		<module organisation="com.twitter" name="scalding-args_2.10">
-			<revision name="0.8.11" status="release" pubdate="20130903093749" resolver="public" artresolver="public" homepage="https://github.com/twitter/scalding" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="11">
+			<revision name="0.8.11" status="release" pubdate="20130903093749" resolver="public" artresolver="public" homepage="https://github.com/twitter/scalding" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="11">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="2225" time="445" location="/Users/wanyifu/.ivy2/cache/com.twitter/scalding-args_2.10/ivy-0.8.11.xml" searched="true" original-local-location="/Users/wanyifu/.ivy2/cache/com.twitter/scalding-args_2.10/ivy-0.8.11.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twitter/scalding-args_2.10/0.8.11/scalding-args_2.10-0.8.11.pom"/>
+				<metadata-artifact status="no" details="" size="2775" time="0" location="/Users/wanyifu/.ivy2/cache/com.twitter/scalding-args_2.10/ivy-0.8.11.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twitter/scalding-args_2.10/0.8.11/scalding-args_2.10-0.8.11.pom"/>
 				<caller organisation="com.twitter" name="scalding-core_2.10" conf="default, compile, runtime, master" rev="0.8.11" rev-constraint-default="0.8.11" rev-constraint-dynamic="0.8.11" callerrev="0.8.11"/>
 				<artifacts>
-					<artifact name="scalding-args_2.10" type="jar" ext="jar" status="successful" details="" size="13664" time="296" location="/Users/wanyifu/.ivy2/cache/com.twitter/scalding-args_2.10/jars/scalding-args_2.10-0.8.11.jar">
+					<artifact name="scalding-args_2.10" type="jar" ext="jar" status="no" details="" size="13664" time="0" location="/Users/wanyifu/.ivy2/cache/com.twitter/scalding-args_2.10/jars/scalding-args_2.10-0.8.11.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/scalding-args_2.10/0.8.11/scalding-args_2.10-0.8.11.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="cascading" name="cascading-hadoop2-mr1">
-			<revision name="2.5.2" status="release" pubdate="20140203163516" resolver="Concurrent Maven Repo" artresolver="Concurrent Maven Repo" homepage="http://cascading.org/" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="9">
+			<revision name="2.5.2" status="release" pubdate="20140203163516" resolver="Concurrent Maven Repo" artresolver="Concurrent Maven Repo" homepage="http://cascading.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="9">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="2528" time="834" location="/Users/wanyifu/.ivy2/cache/cascading/cascading-hadoop2-mr1/ivy-2.5.2.xml" searched="true" original-local-location="/Users/wanyifu/.ivy2/cache/cascading/cascading-hadoop2-mr1/ivy-2.5.2.xml.original" origin-is-local="false" origin-location="http://conjars.org/repo/cascading/cascading-hadoop2-mr1/2.5.2/cascading-hadoop2-mr1-2.5.2.pom"/>
+				<metadata-artifact status="no" details="" size="3619" time="0" location="/Users/wanyifu/.ivy2/cache/cascading/cascading-hadoop2-mr1/ivy-2.5.2.xml" searched="false" origin-is-local="false" origin-location="http://conjars.org/repo/cascading/cascading-hadoop2-mr1/2.5.2/cascading-hadoop2-mr1-2.5.2.pom"/>
 				<caller organisation="Concurrent Inc." name="scalding-tutorial_2.10" conf="test, compile, runtime" rev="2.5.2" rev-constraint-default="2.5.2" rev-constraint-dynamic="2.5.2" callerrev="0.8.11"/>
 				<artifacts>
-					<artifact name="cascading-hadoop2-mr1" type="jar" ext="jar" status="successful" details="" size="244471" time="1393" location="/Users/wanyifu/.ivy2/cache/cascading/cascading-hadoop2-mr1/jars/cascading-hadoop2-mr1-2.5.2.jar">
+					<artifact name="cascading-hadoop2-mr1" type="jar" ext="jar" status="no" details="" size="244471" time="0" location="/Users/wanyifu/.ivy2/cache/cascading/cascading-hadoop2-mr1/jars/cascading-hadoop2-mr1-2.5.2.jar">
 						<origin-location is-local="false" location="http://conjars.org/repo/cascading/cascading-hadoop2-mr1/2.5.2/cascading-hadoop2-mr1-2.5.2.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="cascading" name="cascading-local">
-			<revision name="2.5.2" status="release" pubdate="20140203163541" resolver="Concurrent Maven Repo" artresolver="Concurrent Maven Repo" homepage="http://cascading.org/" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="6">
+			<revision name="2.5.2" status="release" pubdate="20140203163541" resolver="Concurrent Maven Repo" artresolver="Concurrent Maven Repo" homepage="http://cascading.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="6">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="1947" time="779" location="/Users/wanyifu/.ivy2/cache/cascading/cascading-local/ivy-2.5.2.xml" searched="true" original-local-location="/Users/wanyifu/.ivy2/cache/cascading/cascading-local/ivy-2.5.2.xml.original" origin-is-local="false" origin-location="http://conjars.org/repo/cascading/cascading-local/2.5.2/cascading-local-2.5.2.pom"/>
+				<metadata-artifact status="no" details="" size="3204" time="0" location="/Users/wanyifu/.ivy2/cache/cascading/cascading-local/ivy-2.5.2.xml" searched="false" origin-is-local="false" origin-location="http://conjars.org/repo/cascading/cascading-local/2.5.2/cascading-local-2.5.2.pom"/>
 				<caller organisation="Concurrent Inc." name="scalding-tutorial_2.10" conf="test, compile, runtime" rev="2.5.2" rev-constraint-default="2.5.2" rev-constraint-dynamic="2.5.2" callerrev="0.8.11"/>
 				<artifacts>
-					<artifact name="cascading-local" type="jar" ext="jar" status="successful" details="" size="42701" time="926" location="/Users/wanyifu/.ivy2/cache/cascading/cascading-local/jars/cascading-local-2.5.2.jar">
+					<artifact name="cascading-local" type="jar" ext="jar" status="no" details="" size="42701" time="0" location="/Users/wanyifu/.ivy2/cache/cascading/cascading-local/jars/cascading-local-2.5.2.jar">
 						<origin-location is-local="false" location="http://conjars.org/repo/cascading/cascading-local/2.5.2/cascading-local-2.5.2.jar"/>
 					</artifact>
 				</artifacts>
@@ -505,15 +505,15 @@
 			</revision>
 		</module>
 		<module organisation="cascading" name="cascading-core">
-			<revision name="2.5.2" status="release" pubdate="20140203163426" resolver="Concurrent Maven Repo" artresolver="Concurrent Maven Repo" homepage="http://cascading.org/" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, master(*), compile(*), runtime, runtime(*), master" position="1">
+			<revision name="2.5.2" status="release" pubdate="20140203163426" resolver="Concurrent Maven Repo" artresolver="Concurrent Maven Repo" homepage="http://cascading.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, master(*), compile(*), runtime, runtime(*), master" position="1">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="2102" time="754" location="/Users/wanyifu/.ivy2/cache/cascading/cascading-core/ivy-2.5.2.xml" searched="true" original-local-location="/Users/wanyifu/.ivy2/cache/cascading/cascading-core/ivy-2.5.2.xml.original" origin-is-local="false" origin-location="http://conjars.org/repo/cascading/cascading-core/2.5.2/cascading-core-2.5.2.pom"/>
+				<metadata-artifact status="no" details="" size="3298" time="0" location="/Users/wanyifu/.ivy2/cache/cascading/cascading-core/ivy-2.5.2.xml" searched="false" origin-is-local="false" origin-location="http://conjars.org/repo/cascading/cascading-core/2.5.2/cascading-core-2.5.2.pom"/>
 				<caller organisation="com.twitter" name="scalding-core_2.10" conf="default, compile, runtime, master" rev="2.1.6" rev-constraint-default="2.1.6" rev-constraint-dynamic="2.1.6" callerrev="0.8.11"/>
 				<caller organisation="cascading" name="cascading-hadoop2-mr1" conf="default, compile, runtime, master" rev="2.5.2" rev-constraint-default="2.5.2" rev-constraint-dynamic="2.5.2" callerrev="2.5.2"/>
 				<caller organisation="Concurrent Inc." name="scalding-tutorial_2.10" conf="test, compile, runtime" rev="2.5.2" rev-constraint-default="2.5.2" rev-constraint-dynamic="2.5.2" callerrev="0.8.11"/>
 				<caller organisation="cascading" name="cascading-local" conf="default, compile, runtime, master" rev="2.5.2" rev-constraint-default="2.5.2" rev-constraint-dynamic="2.5.2" callerrev="2.5.2"/>
 				<artifacts>
-					<artifact name="cascading-core" type="jar" ext="jar" status="successful" details="" size="664675" time="1874" location="/Users/wanyifu/.ivy2/cache/cascading/cascading-core/jars/cascading-core-2.5.2.jar">
+					<artifact name="cascading-core" type="jar" ext="jar" status="no" details="" size="664675" time="0" location="/Users/wanyifu/.ivy2/cache/cascading/cascading-core/jars/cascading-core-2.5.2.jar">
 						<origin-location is-local="false" location="http://conjars.org/repo/cascading/cascading-core/2.5.2/cascading-core-2.5.2.jar"/>
 					</artifact>
 				</artifacts>

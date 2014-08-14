@@ -4,7 +4,7 @@
 		module="scalding-tutorial_2.10"
 		revision="0.8.11"
 		status="integration"
-		publication="20140806004906"
+		publication="20140814004943"
 	>
 		<description>
 		The scalding tutorial as an SBT project
